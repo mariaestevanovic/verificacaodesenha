@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Verificador de Senhas</h1>
+    <section>
+
+        <div id="campoSenha">
+        <input type="password" name="senha" id="senha" placeholder="Sua senha">
+        <input type="button" value="Verificar" onclick="verificaSenha()"> 
+        </div>
+        <div id="requisitos">
+            <p id="req">Requisitos:</p>
+            <p id="car">Mínimo 8 Caracteres </p>
+            <p id="mai">Mínimo 1 Letra Maiúscula </p>
+            <p id="min">Mínimo 1 Letra Minúscula </p>
+            <p id="num">Mínimo 1 Número </p>
+            <p id="acent"></p>
+            <p id="res"></p>
+        </div>
+
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
